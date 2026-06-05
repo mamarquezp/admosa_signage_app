@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_inappwebview: ^6.1.5      # WebView potente con soporte de subida de archivos
+  flutter_inappwebview: 6.2.0-beta.3   # 6.1.5 rompe con AGP nuevo (proguard); la beta lo corrige
   shared_preferences: ^2.3.2        # Para guardar la URL del servidor
 
 dev_dependencies:
