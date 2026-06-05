@@ -1,0 +1,19 @@
+name: admosa_signage_app
+description: Panel de gestión ADMOSA SignageTV para móvil (WebView del panel web).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5      # WebView potente con soporte de subida de archivos
+  shared_preferences: ^2.3.2        # Para guardar la URL del servidor
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
